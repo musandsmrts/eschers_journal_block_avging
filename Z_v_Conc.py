@@ -21,9 +21,7 @@ gs.update(wspace=0,hspace=0)
 ax = fig.add_subplot(gs[0,0])
 
 print('Loading data...')
-#data01 = np.loadtxt('01-tvDvZ.dat')
 data01 = np.loadtxt('01-tvDvZ_-120_120_D1CSVR_20200930.dat')
-#data01 = np.loadtxt('test.dat')
 print('Data loaded')
 
 sampleCnt = len(data01)
